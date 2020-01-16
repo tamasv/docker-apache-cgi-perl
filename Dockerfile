@@ -38,3 +38,4 @@ COPY localhost.conf /etc/apache2/sites-enabled/localhost.conf
 VOLUME ["/var/www/html"]
 
 EXPOSE 80
+CMD apachectl -D FOREGROUND
